@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		676824591B1209B300601306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 676824581B1209B300601306 /* main.m */; };
+		6768245C1B1209B300601306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6768245B1B1209B300601306 /* AppDelegate.m */; };
+		6768245F1B1209B300601306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6768245E1B1209B300601306 /* ViewController.m */; };
+		676824621B1209B300601306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676824601B1209B300601306 /* Main.storyboard */; };
+		676824641B1209B300601306 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676824631B1209B300601306 /* Images.xcassets */; };
+		676824671B1209B300601306 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 676824651B1209B300601306 /* LaunchScreen.xib */; };
+		676824731B1209B300601306 /* EFMaskedGradientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676824721B1209B300601306 /* EFMaskedGradientTests.m */; };
+		6768247E1B120A1500601306 /* EFDashedGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6768247D1B120A1500601306 /* EFDashedGradientView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6768246D1B1209B300601306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6768244B1B1209B300601306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 676824521B1209B300601306;
+			remoteInfo = EFMaskedGradient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		676824531B1209B300601306 /* EFMaskedGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFMaskedGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		676824571B1209B300601306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676824581B1209B300601306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6768245A1B1209B300601306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6768245B1B1209B300601306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6768245D1B1209B300601306 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6768245E1B1209B300601306 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		676824611B1209B300601306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		676824631B1209B300601306 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		676824661B1209B300601306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6768246C1B1209B300601306 /* EFMaskedGradientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EFMaskedGradientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		676824711B1209B300601306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676824721B1209B300601306 /* EFMaskedGradientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EFMaskedGradientTests.m; sourceTree = "<group>"; };
+		6768247C1B120A1500601306 /* EFDashedGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFDashedGradientView.h; sourceTree = "<group>"; };
+		6768247D1B120A1500601306 /* EFDashedGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFDashedGradientView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		676824501B1209B300601306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676824691B1209B300601306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6768244A1B1209B300601306 = {
+			isa = PBXGroup;
+			children = (
+				676824551B1209B300601306 /* EFMaskedGradient */,
+				6768246F1B1209B300601306 /* EFMaskedGradientTests */,
+				676824541B1209B300601306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		676824541B1209B300601306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				676824531B1209B300601306 /* EFMaskedGradient.app */,
+				6768246C1B1209B300601306 /* EFMaskedGradientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		676824551B1209B300601306 /* EFMaskedGradient */ = {
+			isa = PBXGroup;
+			children = (
+				6768245A1B1209B300601306 /* AppDelegate.h */,
+				6768245B1B1209B300601306 /* AppDelegate.m */,
+				6768245D1B1209B300601306 /* ViewController.h */,
+				6768245E1B1209B300601306 /* ViewController.m */,
+				6768247C1B120A1500601306 /* EFDashedGradientView.h */,
+				6768247D1B120A1500601306 /* EFDashedGradientView.m */,
+				676824601B1209B300601306 /* Main.storyboard */,
+				676824631B1209B300601306 /* Images.xcassets */,
+				676824651B1209B300601306 /* LaunchScreen.xib */,
+				676824561B1209B300601306 /* Supporting Files */,
+			);
+			path = EFMaskedGradient;
+			sourceTree = "<group>";
+		};
+		676824561B1209B300601306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				676824571B1209B300601306 /* Info.plist */,
+				676824581B1209B300601306 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6768246F1B1209B300601306 /* EFMaskedGradientTests */ = {
+			isa = PBXGroup;
+			children = (
+				676824721B1209B300601306 /* EFMaskedGradientTests.m */,
+				676824701B1209B300601306 /* Supporting Files */,
+			);
+			path = EFMaskedGradientTests;
+			sourceTree = "<group>";
+		};
+		676824701B1209B300601306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				676824711B1209B300601306 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		676824521B1209B300601306 /* EFMaskedGradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676824761B1209B300601306 /* Build configuration list for PBXNativeTarget "EFMaskedGradient" */;
+			buildPhases = (
+				6768244F1B1209B300601306 /* Sources */,
+				676824501B1209B300601306 /* Frameworks */,
+				676824511B1209B300601306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFMaskedGradient;
+			productName = EFMaskedGradient;
+			productReference = 676824531B1209B300601306 /* EFMaskedGradient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6768246B1B1209B300601306 /* EFMaskedGradientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676824791B1209B300601306 /* Build configuration list for PBXNativeTarget "EFMaskedGradientTests" */;
+			buildPhases = (
+				676824681B1209B300601306 /* Sources */,
+				676824691B1209B300601306 /* Frameworks */,
+				6768246A1B1209B300601306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6768246E1B1209B300601306 /* PBXTargetDependency */,
+			);
+			name = EFMaskedGradientTests;
+			productName = EFMaskedGradientTests;
+			productReference = 6768246C1B1209B300601306 /* EFMaskedGradientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6768244B1B1209B300601306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Eric Freitas";
+				TargetAttributes = {
+					676824521B1209B300601306 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					6768246B1B1209B300601306 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 676824521B1209B300601306;
+					};
+				};
+			};
+			buildConfigurationList = 6768244E1B1209B300601306 /* Build configuration list for PBXProject "EFMaskedGradient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6768244A1B1209B300601306;
+			productRefGroup = 676824541B1209B300601306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				676824521B1209B300601306 /* EFMaskedGradient */,
+				6768246B1B1209B300601306 /* EFMaskedGradientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		676824511B1209B300601306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676824621B1209B300601306 /* Main.storyboard in Resources */,
+				676824671B1209B300601306 /* LaunchScreen.xib in Resources */,
+				676824641B1209B300601306 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6768246A1B1209B300601306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6768244F1B1209B300601306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6768245F1B1209B300601306 /* ViewController.m in Sources */,
+				6768245C1B1209B300601306 /* AppDelegate.m in Sources */,
+				6768247E1B120A1500601306 /* EFDashedGradientView.m in Sources */,
+				676824591B1209B300601306 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676824681B1209B300601306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676824731B1209B300601306 /* EFMaskedGradientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6768246E1B1209B300601306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 676824521B1209B300601306 /* EFMaskedGradient */;
+			targetProxy = 6768246D1B1209B300601306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		676824601B1209B300601306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676824611B1209B300601306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		676824651B1209B300601306 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676824661B1209B300601306 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		676824741B1209B300601306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		676824751B1209B300601306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		676824771B1209B300601306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EFMaskedGradient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		676824781B1209B300601306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EFMaskedGradient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6768247A1B1209B300601306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EFMaskedGradientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EFMaskedGradient.app/EFMaskedGradient";
+			};
+			name = Debug;
+		};
+		6768247B1B1209B300601306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EFMaskedGradientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EFMaskedGradient.app/EFMaskedGradient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6768244E1B1209B300601306 /* Build configuration list for PBXProject "EFMaskedGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676824741B1209B300601306 /* Debug */,
+				676824751B1209B300601306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676824761B1209B300601306 /* Build configuration list for PBXNativeTarget "EFMaskedGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676824771B1209B300601306 /* Debug */,
+				676824781B1209B300601306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		676824791B1209B300601306 /* Build configuration list for PBXNativeTarget "EFMaskedGradientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6768247A1B1209B300601306 /* Debug */,
+				6768247B1B1209B300601306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6768244B1B1209B300601306 /* Project object */;
+}
